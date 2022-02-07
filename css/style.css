@@ -46,3 +46,10 @@ body {
     padding: 5px;
     border-radius: 5px;
   }
+
+  #create-section .fas, #share-section .fas {
+    background-color: #008ed6;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
