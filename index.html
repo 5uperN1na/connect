@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CONNECT</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
-<body data-spy="scroll" data-target="#main-nav" id="home">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mizuxe</title>
+</head>
+
+<body>
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
     <div class="container">
-      <a href="index.html" class="navbar-brand">CONNECT</a>
+      <a href="#home" class="navbar-brand">
+        <img src="img/mlogo.png" width="50" height="50" alt="">
+        <h3 class="d-inline align-middle">Mizuxe</h3>
+      </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,130 +36,100 @@
             <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#explore-head-section" class="nav-link">Explore</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#create-head-section" class="nav-link">Create</a>
+            <a href="#authors" class="nav-link">Meet The Authors</a>
           </li>
           <li class="nav-item">
-            <a href="#share-head-section" class="nav-link">Share</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- HOME SECTION -->
-  <header id="home-section">
-    <div class="dark-overlay">
-      <div class="home-inner container">
+  <!--Showcase-->
+
+  <section id="showcase" class="py-5">
+    <div class="primary-overlay text-white">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-8 d-none d-lg-block">
-            <h1 class="display-4">Building
-              <strong>social connections</strong>while gaining revenue
-              <strong>profits.</strong>
-            </h1>
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
-            </div>
+          <div class="col-lg-6 text-center">
+            <h1 class="display-2 mt-5 pt-5">Do what you dream of...</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus quo,
+              iusto ducimus totam placeat ipsum explicabo accusantium cupiditate laboriosam odit aperiam
+              soluta in suscipit, similique, eius at et omnis.</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+              <i class="fas fa-arrow-right"></i> Read More
+            </a>
           </div>
-
-          <div class="col-lg-4">
-            <div class="card bg-primary text-center card-form">
-              <div class="card-body">
-                <h3>Start Connecting Today!</h3>
-                <p>Please fill out this form to register</p>
-                <form>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" placeholder="Username">
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control form-control-lg" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
-                  </div>
-                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
-                </form>
-              </div>
-            </div>
+          <div class="col-lg-6 text-center">
+            <img src="img/book.png" alt="" class="img-fluid d-none d-lg-block">
           </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!--Explore Head-->
-
-  <section id="explore-head-section">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Explore </h1>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt suscipit ipsum
-            cumque sapiente dignissimos nesciunt possimus corporis aspernatur odit. </p>
-          <a href="#" class="btn btn-outline-secondary">Find out more</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!--Explore Section-->
+  <!--Newsletter-->
 
-  <section id="explore-section" class="bg-light text-muted py-5">
+  <section id="newsletter" class="bg-dark text-white py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
         </div>
-        <div class="col-md-6">
-          <h3>Explore & Connect</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum
-            odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+     <button class="btn btn-secondary btn-lg btn-block">
+       <i class="fas fa-envelop-open-o"></i>Subscribe
+     </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Boxes-->
+
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consequatur? Id beatae ad dolore, debitis ipsa ut, quia omnis assumenda hic odit error
+                 ipsum quam molestiae autem reprehenderit, minima consectetur.</p>
             </div>
           </div>
-
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consequatur? Id beatae ad dolore, debitis ipsa ut, quia omnis assumenda hic odit error
+                 ipsum quam molestiae autem reprehenderit, minima consectetur.</p>
             </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-secondary text-white mb-resp">
+            <div class="card-body">
+              <h3 class="text-white">Be Smarter</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consequatur? Id beatae ad dolore, debitis ipsa ut, quia omnis assumenda hic odit error
+                 ipsum quam molestiae autem reprehenderit, minima consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consequatur? Id beatae ad dolore, debitis ipsa ut, quia omnis assumenda hic odit error
+                 ipsum quam molestiae autem reprehenderit, minima consectetur.</p>
             </div>
           </div>
         </div>
@@ -158,203 +137,38 @@
     </div>
   </section>
 
-  <!-- Create Head-->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 
-  <section id="create-head-section" class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Create </h1>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt suscipit ipsum
-            cumque sapiente dignissimos nesciunt possimus corporis aspernatur odit. </p>
-          <a href="#" class="btn btn-outline-light">Find out more</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
 
-  <!-- Create Section-->
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
 
-  <section id="create-section" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 order-2">
-          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6 oder-1">
-          <h3>Create Your Passion</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum
-            odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
-            </div>
-          </div>
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
 
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        const hash = this.hash;
 
-  <!-- Share Head-->
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
 
-  <section id="share-head-section" class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Share</h1>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt suscipit ipsum
-            cumque sapiente dignissimos nesciunt possimus corporis aspernatur odit. </p>
-          <a href="#" class="btn btn-outline-light">Find out more</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Share Section-->
-
-  <section id="share-section" class="bg-light text-muted py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6">
-          <h3>Share What You Create</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum
-            odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
-            </div>
-          </div>
-
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-              natus harum?
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-  <footer id="main-footer" class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-4">
-          <h3>CONNECT</h3>
-          <p>Copyright &copy;
-            <span id="year"></span>
-          </p>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!--Contact Modal-->
-
-  <div class="modal fade text-dark" id="contactModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-        </div>
-
-
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control">
-            </div>
-          </form>
-
-          <form>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control">
-            </div>
-          </form>
-
-          <form>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control"></textarea>
-            </div>
-          </form>
-
-        </div>
-
-        <div class="modal-footer">
-          <button class="btn-btn-primary btn-block">
-            Submit
-          </button>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-  crossorigin="anonymous"></script>
-
-    <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
-  
-      // Init Scrollspy
-      $('body').scrollspy({ target: '#main-nav' });
-  
-      // Smooth Scrolling
-      $("#main-nav a").on('click', function (event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-  
-          const hash = this.hash;
-  
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
-  
-            window.location.hash = hash;
-          });
-        }
-      });
-    </script>
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
